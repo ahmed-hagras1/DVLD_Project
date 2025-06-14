@@ -118,8 +118,8 @@ namespace Presentation_Layer
             if(Mode == en_Mode.UpdateMode)
             _LoadData();
         }
-        delegate bool ValidateTextBoxes(ref string errorMessage, string text);
 
+        delegate bool ValidateTextBoxes(ref string errorMessage, string text);
         private bool ValidateName(ref string errorMessage, string text)
         {
             if (string.IsNullOrEmpty(text))

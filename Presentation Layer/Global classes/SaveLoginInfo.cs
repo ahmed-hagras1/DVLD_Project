@@ -7,36 +7,80 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Microsoft.Win32;
 
 namespace Presentation_Layer
 {
+    
     public class SaveLoginInfo
     {
         public static User currentUser;
+
+        public static string keyPath  = @"HKEY_CURRENT_USER\Software\LoginInfo";
+        public static string valueName = "LoginInfo";
+        public static string valueData;
         public static bool RememberLoginInfo(string username , string password)
         {
             try
             {
-                // current project directory folder.
-                string currentDirectory = System.IO.Directory.GetCurrentDirectory();
-
-                // The path to the text file.
-                string filePath = currentDirectory + "\\LoginInfo.txt";
+                 valueData = username + "#//#" + password;
 
                 // Incase the username is empty, delete the file.
-                if (username == "" && File.Exists(filePath))
+                // Note --> Do not include the root (HKEY_CURRENT_USER) when calling function in CurrentUser — that's already specified by Registry.CurrentUser.
+                if (username == "" && Registry.CurrentUser.OpenSubKey(@"Software\LoginInfo") != null)
                 {
-                    File.Delete(filePath);
-                    return true;
+                    try
+                    {
+                        // Open the registry key in read/write mode with explicit registry view
+                        using (RegistryKey baseKey = RegistryKey.OpenBaseKey(RegistryHive.CurrentUser, RegistryView.Registry64))
+                        {
+                            using (RegistryKey key = baseKey.OpenSubKey(@"Software\LoginInfo", true))
+                            {
+                                if (key != null)
+                                {
+                                    // Delete the specified value
+                                    key.DeleteValue(valueName);
+                                    return true;
+                                }
+                                else
+                                {
+                                    MessageBox.Show("Registry key not found. Unable to delete login info.");
+                                }
+                            }
+                        }
+                    }
+                    catch (UnauthorizedAccessException)
+                    {
+                        MessageBox.Show("You do not have permission to delete the login info. Please run the application as an administrator.");
+                        return false;
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show($"An error occurred while deleting login info: {ex.Message}");
+                        return false;
+                    }
+
+                    //try
+                    //{
+                    //    Registry.CurrentUser.DeleteValue(@"Software\LoginInfo");
+                    //    return true;
+                    //}
+                    //catch (Exception ex )
+                    //{
+                    //    MessageBox.Show($"An error occurred while deleting login info: {ex.Message}");
+                    //    return false;
+                    //}
                 }
 
-                // save user name and password with separator.
-                string dataToSave = username + "#//#" + password;
-
-                using (StreamWriter writer = new StreamWriter(filePath))
+                try
                 {
-                    writer.WriteLine(dataToSave);
+                    Registry.SetValue(keyPath, valueName, valueData);
                     return true;
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show($"An error occurred while saving login info: {ex.Message}");
+                    return false;
                 }
             }
             catch (Exception ex )
@@ -50,33 +94,37 @@ namespace Presentation_Layer
         {
             try
             {
-                string currentDirectory = System.IO.Directory.GetCurrentDirectory();
-
-                string filePath = currentDirectory + "\\LoginInfo.txt";
-
-                if (File.Exists(filePath))
+                using (RegistryKey key = Registry.CurrentUser.OpenSubKey(@"Software\LoginInfo"))
                 {
-                    using (StreamReader reader = new StreamReader(filePath))
+                    if (key != null)
                     {
-                        string line;
-
-                        while ((line = reader.ReadLine()) != null )
+                        try
                         {
-                            string[] result;
+                            valueData = Registry.GetValue(keyPath, valueName, null) as string;
 
-                            result = line.Split(new string[] { "#//#" }, StringSplitOptions.None);
-
-                            username = result[0];
-                            password = result[1];
+                            if (valueData != null)
+                            {
+                                string[] result = valueData.Split(new string[] { "#//#" }, StringSplitOptions.None);
+                                username = result[0];
+                                password = result[1];
+                                return true;
+                            }
+                            else
+                            {
+                                return false;
+                            }
                         }
-                        return true;
+                        catch (Exception ex)
+                        {
+                            MessageBox.Show("An error occurred: " + ex.Message);
+                            return false;
+                        }
+                    }
+                    else
+                    {
+                        return false;
                     }
                 }
-                else
-                {
-                    return false;
-                }
-
             }
             catch (Exception ex)
             {

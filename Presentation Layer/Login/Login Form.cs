@@ -131,5 +131,10 @@ namespace Presentation_Layer
         {
             this.Close();
         }
+
+        private void chkRememberMe_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
