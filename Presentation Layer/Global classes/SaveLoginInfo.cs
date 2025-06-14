@@ -59,17 +59,6 @@ namespace Presentation_Layer
                         MessageBox.Show($"An error occurred while deleting login info: {ex.Message}");
                         return false;
                     }
-
-                    //try
-                    //{
-                    //    Registry.CurrentUser.DeleteValue(@"Software\LoginInfo");
-                    //    return true;
-                    //}
-                    //catch (Exception ex )
-                    //{
-                    //    MessageBox.Show($"An error occurred while deleting login info: {ex.Message}");
-                    //    return false;
-                    //}
                 }
 
                 try
