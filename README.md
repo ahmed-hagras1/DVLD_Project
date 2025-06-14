@@ -48,7 +48,7 @@ This is a C#-based application designed to automate and manage the services of a
 ## 📝 License Testing
 
 - Schedule and manage:
-  - Vision Test
+  - Vision Test.
   - Theory Test
   - Practical Driving Test
 - Track test results and allow re-tests
