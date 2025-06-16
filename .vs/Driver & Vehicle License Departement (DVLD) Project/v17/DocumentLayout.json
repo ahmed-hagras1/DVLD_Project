@@ -1,0 +1,444 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\C#\\Driver \u0026 Vehicle License Departement (DVLD) Project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4225E0CA-0CFE-4106-8C67-ACEE681EE4A1}|Presentation Layer\\Presentation Layer.csproj|c:\\c#\\driver \u0026 vehicle license departement (dvld) project\\presentation layer\\global classes\\clseventlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4225E0CA-0CFE-4106-8C67-ACEE681EE4A1}|Presentation Layer\\Presentation Layer.csproj|solutionrelative:presentation layer\\global classes\\clseventlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4225E0CA-0CFE-4106-8C67-ACEE681EE4A1}|Presentation Layer\\Presentation Layer.csproj|C:\\C#\\Driver \u0026 Vehicle License Departement (DVLD) Project\\presentation layer\\app.manifest||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{4225E0CA-0CFE-4106-8C67-ACEE681EE4A1}|Presentation Layer\\Presentation Layer.csproj|solutionrelative:presentation layer\\app.manifest||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5645664C-21D2-4898-9DAA-F30320D7D801}|Business Layer\\Business Layer.csproj|C:\\C#\\Driver \u0026 Vehicle License Departement (DVLD) Project\\business layer\\app.manifest||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{5645664C-21D2-4898-9DAA-F30320D7D801}|Business Layer\\Business Layer.csproj|solutionrelative:business layer\\app.manifest||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{891627B1-F62D-45EF-97A6-6730CC83548B}|DataAccess Layer\\DataAccess Layer.csproj|C:\\C#\\Driver \u0026 Vehicle License Departement (DVLD) Project\\dataaccess layer\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{891627B1-F62D-45EF-97A6-6730CC83548B}|DataAccess Layer\\DataAccess Layer.csproj|solutionrelative:dataaccess layer\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{891627B1-F62D-45EF-97A6-6730CC83548B}|DataAccess Layer\\DataAccess Layer.csproj|C:\\C#\\Driver \u0026 Vehicle License Departement (DVLD) Project\\dataaccess layer\\testtypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{891627B1-F62D-45EF-97A6-6730CC83548B}|DataAccess Layer\\DataAccess Layer.csproj|solutionrelative:dataaccess layer\\testtypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{891627B1-F62D-45EF-97A6-6730CC83548B}|DataAccess Layer\\DataAccess Layer.csproj|C:\\C#\\Driver \u0026 Vehicle License Departement (DVLD) Project\\dataaccess layer\\tests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{891627B1-F62D-45EF-97A6-6730CC83548B}|DataAccess Layer\\DataAccess Layer.csproj|solutionrelative:dataaccess layer\\tests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{891627B1-F62D-45EF-97A6-6730CC83548B}|DataAccess Layer\\DataAccess Layer.csproj|C:\\C#\\Driver \u0026 Vehicle License Departement (DVLD) Project\\dataaccess layer\\testappointments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{891627B1-F62D-45EF-97A6-6730CC83548B}|DataAccess Layer\\DataAccess Layer.csproj|solutionrelative:dataaccess layer\\testappointments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{891627B1-F62D-45EF-97A6-6730CC83548B}|DataAccess Layer\\DataAccess Layer.csproj|C:\\C#\\Driver \u0026 Vehicle License Departement (DVLD) Project\\dataaccess layer\\peopledataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{891627B1-F62D-45EF-97A6-6730CC83548B}|DataAccess Layer\\DataAccess Layer.csproj|solutionrelative:dataaccess layer\\peopledataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{891627B1-F62D-45EF-97A6-6730CC83548B}|DataAccess Layer\\DataAccess Layer.csproj|C:\\C#\\Driver \u0026 Vehicle License Departement (DVLD) Project\\dataaccess layer\\localdrivinglicenseapplications.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{891627B1-F62D-45EF-97A6-6730CC83548B}|DataAccess Layer\\DataAccess Layer.csproj|solutionrelative:dataaccess layer\\localdrivinglicenseapplications.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{891627B1-F62D-45EF-97A6-6730CC83548B}|DataAccess Layer\\DataAccess Layer.csproj|C:\\C#\\Driver \u0026 Vehicle License Departement (DVLD) Project\\dataaccess layer\\licenses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{891627B1-F62D-45EF-97A6-6730CC83548B}|DataAccess Layer\\DataAccess Layer.csproj|solutionrelative:dataaccess layer\\licenses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{891627B1-F62D-45EF-97A6-6730CC83548B}|DataAccess Layer\\DataAccess Layer.csproj|C:\\C#\\Driver \u0026 Vehicle License Departement (DVLD) Project\\dataaccess layer\\licenseclasses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{891627B1-F62D-45EF-97A6-6730CC83548B}|DataAccess Layer\\DataAccess Layer.csproj|solutionrelative:dataaccess layer\\licenseclasses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{891627B1-F62D-45EF-97A6-6730CC83548B}|DataAccess Layer\\DataAccess Layer.csproj|C:\\C#\\Driver \u0026 Vehicle License Departement (DVLD) Project\\dataaccess layer\\internationallicenses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{891627B1-F62D-45EF-97A6-6730CC83548B}|DataAccess Layer\\DataAccess Layer.csproj|solutionrelative:dataaccess layer\\internationallicenses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{891627B1-F62D-45EF-97A6-6730CC83548B}|DataAccess Layer\\DataAccess Layer.csproj|C:\\C#\\Driver \u0026 Vehicle License Departement (DVLD) Project\\dataaccess layer\\drivers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{891627B1-F62D-45EF-97A6-6730CC83548B}|DataAccess Layer\\DataAccess Layer.csproj|solutionrelative:dataaccess layer\\drivers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{891627B1-F62D-45EF-97A6-6730CC83548B}|DataAccess Layer\\DataAccess Layer.csproj|C:\\C#\\Driver \u0026 Vehicle License Departement (DVLD) Project\\dataaccess layer\\detainedlicenses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{891627B1-F62D-45EF-97A6-6730CC83548B}|DataAccess Layer\\DataAccess Layer.csproj|solutionrelative:dataaccess layer\\detainedlicenses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{891627B1-F62D-45EF-97A6-6730CC83548B}|DataAccess Layer\\DataAccess Layer.csproj|C:\\C#\\Driver \u0026 Vehicle License Departement (DVLD) Project\\dataaccess layer\\dataaccesssettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{891627B1-F62D-45EF-97A6-6730CC83548B}|DataAccess Layer\\DataAccess Layer.csproj|solutionrelative:dataaccess layer\\dataaccesssettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{891627B1-F62D-45EF-97A6-6730CC83548B}|DataAccess Layer\\DataAccess Layer.csproj|C:\\C#\\Driver \u0026 Vehicle License Departement (DVLD) Project\\dataaccess layer\\countriesdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{891627B1-F62D-45EF-97A6-6730CC83548B}|DataAccess Layer\\DataAccess Layer.csproj|solutionrelative:dataaccess layer\\countriesdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{891627B1-F62D-45EF-97A6-6730CC83548B}|DataAccess Layer\\DataAccess Layer.csproj|C:\\C#\\Driver \u0026 Vehicle License Departement (DVLD) Project\\dataaccess layer\\applicationtypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{891627B1-F62D-45EF-97A6-6730CC83548B}|DataAccess Layer\\DataAccess Layer.csproj|solutionrelative:dataaccess layer\\applicationtypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{891627B1-F62D-45EF-97A6-6730CC83548B}|DataAccess Layer\\DataAccess Layer.csproj|C:\\C#\\Driver \u0026 Vehicle License Departement (DVLD) Project\\dataaccess layer\\applications.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{891627B1-F62D-45EF-97A6-6730CC83548B}|DataAccess Layer\\DataAccess Layer.csproj|solutionrelative:dataaccess layer\\applications.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{891627B1-F62D-45EF-97A6-6730CC83548B}|DataAccess Layer\\DataAccess Layer.csproj|C:\\C#\\Driver \u0026 Vehicle License Departement (DVLD) Project\\dataaccess layer\\clseventlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{891627B1-F62D-45EF-97A6-6730CC83548B}|DataAccess Layer\\DataAccess Layer.csproj|solutionrelative:dataaccess layer\\clseventlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4225E0CA-0CFE-4106-8C67-ACEE681EE4A1}|Presentation Layer\\Presentation Layer.csproj|C:\\C#\\Driver \u0026 Vehicle License Departement (DVLD) Project\\presentation layer\\applications\\application types\\listapplicationtypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4225E0CA-0CFE-4106-8C67-ACEE681EE4A1}|Presentation Layer\\Presentation Layer.csproj|solutionrelative:presentation layer\\applications\\application types\\listapplicationtypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4225E0CA-0CFE-4106-8C67-ACEE681EE4A1}|Presentation Layer\\Presentation Layer.csproj|C:\\C#\\Driver \u0026 Vehicle License Departement (DVLD) Project\\presentation layer\\login\\login form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4225E0CA-0CFE-4106-8C67-ACEE681EE4A1}|Presentation Layer\\Presentation Layer.csproj|solutionrelative:presentation layer\\login\\login form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4225E0CA-0CFE-4106-8C67-ACEE681EE4A1}|Presentation Layer\\Presentation Layer.csproj|C:\\C#\\Driver \u0026 Vehicle License Departement (DVLD) Project\\presentation layer\\login\\login form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4225E0CA-0CFE-4106-8C67-ACEE681EE4A1}|Presentation Layer\\Presentation Layer.csproj|solutionrelative:presentation layer\\login\\login form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4225E0CA-0CFE-4106-8C67-ACEE681EE4A1}|Presentation Layer\\Presentation Layer.csproj|C:\\C#\\Driver \u0026 Vehicle License Departement (DVLD) Project\\presentation layer\\applications\\application types\\listapplicationtypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4225E0CA-0CFE-4106-8C67-ACEE681EE4A1}|Presentation Layer\\Presentation Layer.csproj|solutionrelative:presentation layer\\applications\\application types\\listapplicationtypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4225E0CA-0CFE-4106-8C67-ACEE681EE4A1}|Presentation Layer\\Presentation Layer.csproj|C:\\C#\\Driver \u0026 Vehicle License Departement (DVLD) Project\\presentation layer\\applications\\application types\\editapplicationtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4225E0CA-0CFE-4106-8C67-ACEE681EE4A1}|Presentation Layer\\Presentation Layer.csproj|solutionrelative:presentation layer\\applications\\application types\\editapplicationtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4225E0CA-0CFE-4106-8C67-ACEE681EE4A1}|Presentation Layer\\Presentation Layer.csproj|C:\\C#\\Driver \u0026 Vehicle License Departement (DVLD) Project\\presentation layer\\applications\\application types\\editapplicationtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4225E0CA-0CFE-4106-8C67-ACEE681EE4A1}|Presentation Layer\\Presentation Layer.csproj|solutionrelative:presentation layer\\applications\\application types\\editapplicationtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 238,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "app.manifest",
+              "DocumentMoniker": "C:\\C#\\Driver \u0026 Vehicle License Departement (DVLD) Project\\Presentation Layer\\app.manifest",
+              "RelativeDocumentMoniker": "Presentation Layer\\app.manifest",
+              "ToolTip": "C:\\C#\\Driver \u0026 Vehicle License Departement (DVLD) Project\\Presentation Layer\\app.manifest",
+              "RelativeToolTip": "Presentation Layer\\app.manifest",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001203|",
+              "WhenOpened": "2025-06-16T11:18:59.686Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Users.cs",
+              "DocumentMoniker": "C:\\C#\\Driver \u0026 Vehicle License Departement (DVLD) Project\\DataAccess Layer\\Users.cs",
+              "RelativeDocumentMoniker": "DataAccess Layer\\Users.cs",
+              "ToolTip": "C:\\C#\\Driver \u0026 Vehicle License Departement (DVLD) Project\\DataAccess Layer\\Users.cs",
+              "RelativeToolTip": "DataAccess Layer\\Users.cs",
+              "ViewState": "AgIAAJMBAAAAAAAAAAAcwJwBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T11:12:00.612Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TestTypes.cs",
+              "DocumentMoniker": "C:\\C#\\Driver \u0026 Vehicle License Departement (DVLD) Project\\DataAccess Layer\\TestTypes.cs",
+              "RelativeDocumentMoniker": "DataAccess Layer\\TestTypes.cs",
+              "ToolTip": "C:\\C#\\Driver \u0026 Vehicle License Departement (DVLD) Project\\DataAccess Layer\\TestTypes.cs",
+              "RelativeToolTip": "DataAccess Layer\\TestTypes.cs",
+              "ViewState": "AgIAAK4AAAAAAAAAAAAowLcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T11:11:47.429Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Tests.cs",
+              "DocumentMoniker": "C:\\C#\\Driver \u0026 Vehicle License Departement (DVLD) Project\\DataAccess Layer\\Tests.cs",
+              "RelativeDocumentMoniker": "DataAccess Layer\\Tests.cs",
+              "ToolTip": "C:\\C#\\Driver \u0026 Vehicle License Departement (DVLD) Project\\DataAccess Layer\\Tests.cs",
+              "RelativeToolTip": "DataAccess Layer\\Tests.cs",
+              "ViewState": "AgIAAA8BAAAAAAAAAAAwwAsBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T11:11:21.749Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TestAppointments.cs",
+              "DocumentMoniker": "C:\\C#\\Driver \u0026 Vehicle License Departement (DVLD) Project\\DataAccess Layer\\TestAppointments.cs",
+              "RelativeDocumentMoniker": "DataAccess Layer\\TestAppointments.cs",
+              "ToolTip": "C:\\C#\\Driver \u0026 Vehicle License Departement (DVLD) Project\\DataAccess Layer\\TestAppointments.cs",
+              "RelativeToolTip": "DataAccess Layer\\TestAppointments.cs",
+              "ViewState": "AgIAAJEBAAAAAAAAAAAUwJgBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T11:10:43.133Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PeopleDataAccess.cs",
+              "DocumentMoniker": "C:\\C#\\Driver \u0026 Vehicle License Departement (DVLD) Project\\DataAccess Layer\\PeopleDataAccess.cs",
+              "RelativeDocumentMoniker": "DataAccess Layer\\PeopleDataAccess.cs",
+              "ToolTip": "C:\\C#\\Driver \u0026 Vehicle License Departement (DVLD) Project\\DataAccess Layer\\PeopleDataAccess.cs",
+              "RelativeToolTip": "DataAccess Layer\\PeopleDataAccess.cs",
+              "ViewState": "AgIAAMkBAAAAAAAAAADwv9oBAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T11:06:04.701Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LocalDrivingLicenseApplications.cs",
+              "DocumentMoniker": "C:\\C#\\Driver \u0026 Vehicle License Departement (DVLD) Project\\DataAccess Layer\\LocalDrivingLicenseApplications.cs",
+              "RelativeDocumentMoniker": "DataAccess Layer\\LocalDrivingLicenseApplications.cs",
+              "ToolTip": "C:\\C#\\Driver \u0026 Vehicle License Departement (DVLD) Project\\DataAccess Layer\\LocalDrivingLicenseApplications.cs",
+              "RelativeToolTip": "DataAccess Layer\\LocalDrivingLicenseApplications.cs",
+              "ViewState": "AgIAAIQBAAAAAAAAAAAcwIEBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T11:05:22.337Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ClsEventLog.cs",
+              "DocumentMoniker": "C:\\C#\\Driver \u0026 Vehicle License Departement (DVLD) Project\\Presentation Layer\\Global classes\\ClsEventLog.cs",
+              "RelativeDocumentMoniker": "Presentation Layer\\Global classes\\ClsEventLog.cs",
+              "ToolTip": "C:\\C#\\Driver \u0026 Vehicle License Departement (DVLD) Project\\Presentation Layer\\Global classes\\ClsEventLog.cs",
+              "RelativeToolTip": "Presentation Layer\\Global classes\\ClsEventLog.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAA2wCgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T09:34:24.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "app.manifest",
+              "DocumentMoniker": "C:\\C#\\Driver \u0026 Vehicle License Departement (DVLD) Project\\Business Layer\\app.manifest",
+              "RelativeDocumentMoniker": "Business Layer\\app.manifest",
+              "ToolTip": "C:\\C#\\Driver \u0026 Vehicle License Departement (DVLD) Project\\Business Layer\\app.manifest",
+              "RelativeToolTip": "Business Layer\\app.manifest",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001203|",
+              "WhenOpened": "2025-06-16T11:17:59.721Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Licenses.cs",
+              "DocumentMoniker": "C:\\C#\\Driver \u0026 Vehicle License Departement (DVLD) Project\\DataAccess Layer\\Licenses.cs",
+              "RelativeDocumentMoniker": "DataAccess Layer\\Licenses.cs",
+              "ToolTip": "C:\\C#\\Driver \u0026 Vehicle License Departement (DVLD) Project\\DataAccess Layer\\Licenses.cs",
+              "RelativeToolTip": "DataAccess Layer\\Licenses.cs",
+              "ViewState": "AgIAAIoBAAAAAAAAAAAAAIUBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T11:04:11.291Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LicenseClasses.cs",
+              "DocumentMoniker": "C:\\C#\\Driver \u0026 Vehicle License Departement (DVLD) Project\\DataAccess Layer\\LicenseClasses.cs",
+              "RelativeDocumentMoniker": "DataAccess Layer\\LicenseClasses.cs",
+              "ToolTip": "C:\\C#\\Driver \u0026 Vehicle License Departement (DVLD) Project\\DataAccess Layer\\LicenseClasses.cs",
+              "RelativeToolTip": "DataAccess Layer\\LicenseClasses.cs",
+              "ViewState": "AgIAAP0AAAAAAAAAAAAwwAABAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T11:03:27.7Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "InternationalLicenses.cs",
+              "DocumentMoniker": "C:\\C#\\Driver \u0026 Vehicle License Departement (DVLD) Project\\DataAccess Layer\\InternationalLicenses.cs",
+              "RelativeDocumentMoniker": "DataAccess Layer\\InternationalLicenses.cs",
+              "ToolTip": "C:\\C#\\Driver \u0026 Vehicle License Departement (DVLD) Project\\DataAccess Layer\\InternationalLicenses.cs",
+              "RelativeToolTip": "DataAccess Layer\\InternationalLicenses.cs",
+              "ViewState": "AgIAADkBAAAAAAAAAADwvzsBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T11:02:34.449Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Drivers.cs",
+              "DocumentMoniker": "C:\\C#\\Driver \u0026 Vehicle License Departement (DVLD) Project\\DataAccess Layer\\Drivers.cs",
+              "RelativeDocumentMoniker": "DataAccess Layer\\Drivers.cs",
+              "ToolTip": "C:\\C#\\Driver \u0026 Vehicle License Departement (DVLD) Project\\DataAccess Layer\\Drivers.cs",
+              "RelativeToolTip": "DataAccess Layer\\Drivers.cs",
+              "ViewState": "AgIAABgBAAAAAAAAAADwvxcBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T11:01:00.176Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DetainedLicenses.cs",
+              "DocumentMoniker": "C:\\C#\\Driver \u0026 Vehicle License Departement (DVLD) Project\\DataAccess Layer\\DetainedLicenses.cs",
+              "RelativeDocumentMoniker": "DataAccess Layer\\DetainedLicenses.cs",
+              "ToolTip": "C:\\C#\\Driver \u0026 Vehicle License Departement (DVLD) Project\\DataAccess Layer\\DetainedLicenses.cs",
+              "RelativeToolTip": "DataAccess Layer\\DetainedLicenses.cs",
+              "ViewState": "AgIAABsBAAAAAAAAAAAwwBkBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T11:00:52.824Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DataAccessSettings.cs",
+              "DocumentMoniker": "C:\\C#\\Driver \u0026 Vehicle License Departement (DVLD) Project\\DataAccess Layer\\DataAccessSettings.cs",
+              "RelativeDocumentMoniker": "DataAccess Layer\\DataAccessSettings.cs",
+              "ToolTip": "C:\\C#\\Driver \u0026 Vehicle License Departement (DVLD) Project\\DataAccess Layer\\DataAccessSettings.cs",
+              "RelativeToolTip": "DataAccess Layer\\DataAccessSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T11:00:50.005Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CountriesDataAccess.cs",
+              "DocumentMoniker": "C:\\C#\\Driver \u0026 Vehicle License Departement (DVLD) Project\\DataAccess Layer\\CountriesDataAccess.cs",
+              "RelativeDocumentMoniker": "DataAccess Layer\\CountriesDataAccess.cs",
+              "ToolTip": "C:\\C#\\Driver \u0026 Vehicle License Departement (DVLD) Project\\DataAccess Layer\\CountriesDataAccess.cs",
+              "RelativeToolTip": "DataAccess Layer\\CountriesDataAccess.cs",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAgwGcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T11:00:30.313Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ApplicationTypes.cs",
+              "DocumentMoniker": "C:\\C#\\Driver \u0026 Vehicle License Departement (DVLD) Project\\DataAccess Layer\\ApplicationTypes.cs",
+              "RelativeDocumentMoniker": "DataAccess Layer\\ApplicationTypes.cs",
+              "ToolTip": "C:\\C#\\Driver \u0026 Vehicle License Departement (DVLD) Project\\DataAccess Layer\\ApplicationTypes.cs",
+              "RelativeToolTip": "DataAccess Layer\\ApplicationTypes.cs",
+              "ViewState": "AgIAAL8AAAAAAAAAAAAswNAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T10:59:40.254Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ClsEventLog.cs",
+              "DocumentMoniker": "C:\\C#\\Driver \u0026 Vehicle License Departement (DVLD) Project\\DataAccess Layer\\ClsEventLog.cs",
+              "RelativeDocumentMoniker": "DataAccess Layer\\ClsEventLog.cs",
+              "ToolTip": "C:\\C#\\Driver \u0026 Vehicle License Departement (DVLD) Project\\DataAccess Layer\\ClsEventLog.cs",
+              "RelativeToolTip": "DataAccess Layer\\ClsEventLog.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAA3wAkAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T10:56:03.549Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Applications.cs",
+              "DocumentMoniker": "C:\\C#\\Driver \u0026 Vehicle License Departement (DVLD) Project\\DataAccess Layer\\Applications.cs",
+              "RelativeDocumentMoniker": "DataAccess Layer\\Applications.cs",
+              "ToolTip": "C:\\C#\\Driver \u0026 Vehicle License Departement (DVLD) Project\\DataAccess Layer\\Applications.cs",
+              "RelativeToolTip": "DataAccess Layer\\Applications.cs",
+              "ViewState": "AgIAACoBAAAAAAAAAAAYwDMBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T09:58:40.981Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ListApplicationTypes.cs",
+              "DocumentMoniker": "C:\\C#\\Driver \u0026 Vehicle License Departement (DVLD) Project\\Presentation Layer\\Applications\\Application types\\ListApplicationTypes.cs",
+              "RelativeDocumentMoniker": "Presentation Layer\\Applications\\Application types\\ListApplicationTypes.cs",
+              "ToolTip": "C:\\C#\\Driver \u0026 Vehicle License Departement (DVLD) Project\\Presentation Layer\\Applications\\Application types\\ListApplicationTypes.cs",
+              "RelativeToolTip": "Presentation Layer\\Applications\\Application types\\ListApplicationTypes.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAYwBYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T09:56:50.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ListApplicationTypes.cs [Design]",
+              "DocumentMoniker": "C:\\C#\\Driver \u0026 Vehicle License Departement (DVLD) Project\\Presentation Layer\\Applications\\Application types\\ListApplicationTypes.cs",
+              "RelativeDocumentMoniker": "Presentation Layer\\Applications\\Application types\\ListApplicationTypes.cs",
+              "ToolTip": "C:\\C#\\Driver \u0026 Vehicle License Departement (DVLD) Project\\Presentation Layer\\Applications\\Application types\\ListApplicationTypes.cs [Design]",
+              "RelativeToolTip": "Presentation Layer\\Applications\\Application types\\ListApplicationTypes.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T09:56:47.869Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Login Form.cs [Design]",
+              "DocumentMoniker": "C:\\C#\\Driver \u0026 Vehicle License Departement (DVLD) Project\\Presentation Layer\\Login\\Login Form.cs",
+              "RelativeDocumentMoniker": "Presentation Layer\\Login\\Login Form.cs",
+              "ToolTip": "C:\\C#\\Driver \u0026 Vehicle License Departement (DVLD) Project\\Presentation Layer\\Login\\Login Form.cs [Design]",
+              "RelativeToolTip": "Presentation Layer\\Login\\Login Form.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T13:14:43.47Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Login Form.cs",
+              "DocumentMoniker": "C:\\C#\\Driver \u0026 Vehicle License Departement (DVLD) Project\\Presentation Layer\\Login\\Login Form.cs",
+              "RelativeDocumentMoniker": "Presentation Layer\\Login\\Login Form.cs",
+              "ToolTip": "C:\\C#\\Driver \u0026 Vehicle License Departement (DVLD) Project\\Presentation Layer\\Login\\Login Form.cs",
+              "RelativeToolTip": "Presentation Layer\\Login\\Login Form.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAAAFYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T13:14:46.68Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "EditApplicationType.cs",
+              "DocumentMoniker": "C:\\C#\\Driver \u0026 Vehicle License Departement (DVLD) Project\\Presentation Layer\\Applications\\Application types\\EditApplicationType.cs",
+              "RelativeDocumentMoniker": "Presentation Layer\\Applications\\Application types\\EditApplicationType.cs",
+              "ToolTip": "C:\\C#\\Driver \u0026 Vehicle License Departement (DVLD) Project\\Presentation Layer\\Applications\\Application types\\EditApplicationType.cs",
+              "RelativeToolTip": "Presentation Layer\\Applications\\Application types\\EditApplicationType.cs",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAIwCcAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T09:54:49.525Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "EditApplicationType.cs [Design]",
+              "DocumentMoniker": "C:\\C#\\Driver \u0026 Vehicle License Departement (DVLD) Project\\Presentation Layer\\Applications\\Application types\\EditApplicationType.cs",
+              "RelativeDocumentMoniker": "Presentation Layer\\Applications\\Application types\\EditApplicationType.cs",
+              "ToolTip": "C:\\C#\\Driver \u0026 Vehicle License Departement (DVLD) Project\\Presentation Layer\\Applications\\Application types\\EditApplicationType.cs [Design]",
+              "RelativeToolTip": "Presentation Layer\\Applications\\Application types\\EditApplicationType.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T09:54:41.976Z"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 129,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

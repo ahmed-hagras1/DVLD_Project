@@ -1,4 +1,5 @@
 ﻿using Business_Layer;
+using Presentation_Layer.Global_classes;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -83,11 +84,12 @@ namespace Presentation_Layer
                 MessageBox.Show("Invalid username or password", "Failed login", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
-
+            
             // If user not active.
             if (!user.isActive)
             {
                 MessageBox.Show("User is not active", "Failed login", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                ClsEventLog.AddWarning($"User {SaveLoginInfo.currentUser.username} try log in application in {DateTime.Now} and he's not active");
                 return;
             }
 
@@ -99,6 +101,7 @@ namespace Presentation_Layer
 
 
             SaveLoginInfo.currentUser = user;
+            ClsEventLog.AddInformation($"User {SaveLoginInfo.currentUser.username} log in application in {DateTime.Now}");
             Form frm = new MainScreen(this);
             this.Hide();
             frm.ShowDialog();

@@ -35,8 +35,8 @@ namespace DataAccess_Layer
                 }
                 catch (Exception ex)
                 {
-                    // Handle exception (log or rethrow)
-                    Console.WriteLine("Error: " + ex.Message);
+                    ClsEventLog.AddError($"Error finding application: {ex.Message}");
+
                 }
             }
 
@@ -67,7 +67,7 @@ namespace DataAccess_Layer
                 catch (Exception ex)
                 {
                     // Handle exception (log or rethrow)
-                    Console.WriteLine("Error: " + ex.Message);
+                    ClsEventLog.AddError($"Error finding application: {ex.Message}");
                 }
             }
 
@@ -102,8 +102,8 @@ namespace DataAccess_Layer
                 }
                 catch (Exception ex)
                 {
-                    // Handle exception (log or rethrow)
-                    Console.WriteLine("Error: " + ex.Message);
+                    ClsEventLog.AddError($"Error finding application: {ex.Message}");
+
                 }
             }
 
@@ -139,7 +139,7 @@ namespace DataAccess_Layer
                 catch (Exception ex)
                 {
                     // Handle exception (log or rethrow)
-                    Console.WriteLine("Error: " + ex.Message);
+                    ClsEventLog.AddError($"Error finding application: {ex.Message}");
                 }
             }
 
@@ -171,7 +171,7 @@ namespace DataAccess_Layer
                 catch (Exception ex)
                 {
                     // Handle exception (log or rethrow)
-                    Console.WriteLine("Error: " + ex.Message);
+                    ClsEventLog.AddError($"Error finding application: {ex.Message}");
                 }
             }
 
@@ -203,7 +203,7 @@ namespace DataAccess_Layer
                 catch (Exception ex)
                 {
                     // Handle exception (log or rethrow)
-                    Console.WriteLine("Error: " + ex.Message);
+                    ClsEventLog.AddError($"Error finding application: {ex.Message}");
                 }
             }
 

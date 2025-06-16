@@ -39,7 +39,8 @@ namespace DataAccess_Layer
                 }
                 catch (Exception ex)
                 {
-                    // Handle exception (log or rethrow)
+                    ClsEventLog.AddError($"Error finding application: {ex.Message}");
+
                 }
             }
 
@@ -71,7 +72,8 @@ namespace DataAccess_Layer
                 }
                 catch (Exception ex)
                 {
-                    // Handle exception (log or rethrow)
+                    ClsEventLog.AddError($"Error finding application: {ex.Message}");
+
                 }
             }
 
@@ -106,7 +108,8 @@ namespace DataAccess_Layer
                 }
                 catch (Exception ex)
                 {
-                    // Handle exception (log or rethrow)
+                    ClsEventLog.AddError($"Error finding application: {ex.Message}");
+
                 }
             }
 
@@ -136,7 +139,8 @@ namespace DataAccess_Layer
                 }
                 catch (Exception ex)
                 {
-                    // Handle exception (log or rethrow)
+                    ClsEventLog.AddError($"Error finding application: {ex.Message}");
+
                 }
             }
 
@@ -161,7 +165,8 @@ namespace DataAccess_Layer
                 }
                 catch (Exception ex)
                 {
-                    // Handle exception (log or rethrow)
+                    ClsEventLog.AddError($"Error finding application: {ex.Message}");
+
                 }
             }
 
@@ -193,7 +198,8 @@ namespace DataAccess_Layer
                 }
                 catch (Exception ex)
                 {
-                    // Handle exception (log or rethrow)
+                    ClsEventLog.AddError($"Error finding application: {ex.Message}");
+
                 }
             }
 
@@ -223,7 +229,8 @@ namespace DataAccess_Layer
                 }
                 catch (Exception ex)
                 {
-                    // Handle exception (log or rethrow)
+                    ClsEventLog.AddError($"Error finding application: {ex.Message}");
+
                 }
             }
 
@@ -259,6 +266,7 @@ namespace DataAccess_Layer
             }
             catch (Exception ex )
             {
+                ClsEventLog.AddError($"Error finding application: {ex.Message}");
 
             }
             finally
@@ -297,6 +305,7 @@ namespace DataAccess_Layer
             }
             catch (Exception ex )
             {
+                ClsEventLog.AddError($"Error finding application: {ex.Message}");
 
             }
             finally
@@ -335,6 +344,7 @@ namespace DataAccess_Layer
             }
             catch (Exception ex )
             {
+                ClsEventLog.AddError($"Error finding application: {ex.Message}");
 
             }
             finally
@@ -372,6 +382,7 @@ namespace DataAccess_Layer
             }
             catch (Exception ex )
             {
+                ClsEventLog.AddError($"Error finding application: {ex.Message}");
 
             }
             finally

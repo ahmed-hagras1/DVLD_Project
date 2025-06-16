@@ -50,6 +50,9 @@
   <PropertyGroup>
     <StartupObject />
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -112,6 +115,7 @@
     <Compile Include="Applications\International License\InternationalLicenseApplicationsList.Designer.cs">
       <DependentUpon>InternationalLicenseApplicationsList.cs</DependentUpon>
     </Compile>
+    <Compile Include="Global classes\ClsEventLog.cs" />
     <Compile Include="People\FindPerson.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -465,6 +469,7 @@
     <EmbeddedResource Include="Users\UsersList.resx">
       <DependentUpon>UsersList.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="app.manifest" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
