@@ -6,6 +6,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -138,6 +139,19 @@ namespace Presentation_Layer
         private void chkRememberMe_CheckedChanged(object sender, EventArgs e)
         {
 
+        }
+
+        static string ComputeHash(string input)
+        {
+            // Create an instance of SHA256 to compute the hash.
+            using (SHA256 sha256 = SHA256.Create())
+            {
+                // Compute the hash value from the UTF8-encoded bytes of the input string.
+                byte[] hashBytes = sha256.ComputeHash(Encoding.UTF8.GetBytes(input));
+
+                // Convert the byte array to a hexadecimal string representation.
+                return BitConverter.ToString(hashBytes).Replace("-", "").ToLower();
+            }
         }
     }
 }

@@ -5,12 +5,24 @@ using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Security.Cryptography;
 
 namespace DataAccess_Layer
 {
     public class Users
     {
+        public static string ComputeHash(string input)
+        {
+            // Create an instance of SHA256 to compute the hash.
+            using (SHA256 sha256 = SHA256.Create())
+            {
+                // Compute the hash value from the UTF8-encoded bytes of the input string.
+                byte[] hashBytes = sha256.ComputeHash(Encoding.UTF8.GetBytes(input));
 
+                // Convert the byte array to a hexadecimal string representation.
+                return BitConverter.ToString(hashBytes).Replace("-", "").ToLower();
+            }
+        }
         static public bool FindUserByUserID(int userID, ref int personID, ref string username,
             ref string password, ref bool isActive)
         {
@@ -100,6 +112,7 @@ namespace DataAccess_Layer
               ref bool isActive)
         {
             bool isFound = false;
+            password = ComputeHash(password); // Hash the password before checking it in the database.
 
             SqlConnection connection = new SqlConnection(DataAccessSettings.connectionString);
 
@@ -154,7 +167,7 @@ namespace DataAccess_Layer
 
             command.Parameters.AddWithValue("@personID", personID);
             command.Parameters.AddWithValue("@username", username);
-            command.Parameters.AddWithValue("@password", password);
+            command.Parameters.AddWithValue("@password", ComputeHash(password));
             command.Parameters.AddWithValue("@isActive", isActive);
             
 
@@ -202,7 +215,7 @@ namespace DataAccess_Layer
             command.Parameters.AddWithValue("@userID", userID);
             command.Parameters.AddWithValue("@personID", personID);
             command.Parameters.AddWithValue("@username", username);
-            command.Parameters.AddWithValue("@password", password);
+            command.Parameters.AddWithValue("@password", ComputeHash(password));
             command.Parameters.AddWithValue("@isActive", isActive);
 
             try
@@ -398,7 +411,7 @@ namespace DataAccess_Layer
                             WHERE UserID = @userID";
             SqlCommand command = new SqlCommand(query, connection);
 
-            command.Parameters.AddWithValue("@password", newPassword);
+            command.Parameters.AddWithValue("@password", ComputeHash(newPassword));
             command.Parameters.AddWithValue("@userID", userID);
 
             try
@@ -419,5 +432,6 @@ namespace DataAccess_Layer
 
             return (rowsAffected > 0);
         }
+       
     }
 }

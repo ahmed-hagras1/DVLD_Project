@@ -119,7 +119,6 @@ namespace Business_Layer
             }
 
         }
-
         public static bool IsUserExist(int userID)
         {
             return Users.IsUserExist(userID);

@@ -5,6 +5,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -13,6 +14,7 @@ namespace Presentation_Layer
 {
     public partial class ChangeUserPassword: Form
     {
+       
         int _userID;
         User _user;
         public ChangeUserPassword(int userID)
@@ -36,7 +38,7 @@ namespace Presentation_Layer
         {
             if (string.IsNullOrEmpty(text))
                 errorMessage = "Current password cannot be empty. Please enter your current password.";
-            else if (text != _user.password)
+            else if (User.FindUserByUsernameAndPassword(_user.username , text.Trim()) == null)
                 errorMessage = "Incorrect current password. Please try again.";
 
                 return !(string.IsNullOrEmpty(errorMessage));
@@ -144,6 +146,11 @@ namespace Presentation_Layer
             }
 
             ctrlUserCard1.LoadUserInfo(_userID);
+        }
+
+        private void txtCurrentPassword_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

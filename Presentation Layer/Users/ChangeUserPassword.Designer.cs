@@ -120,6 +120,7 @@
             this.txtCurrentPassword.PasswordChar = '*';
             this.txtCurrentPassword.Size = new System.Drawing.Size(213, 27);
             this.txtCurrentPassword.TabIndex = 7;
+            this.txtCurrentPassword.TextChanged += new System.EventHandler(this.txtCurrentPassword_TextChanged);
             this.txtCurrentPassword.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox_KeyPress);
             this.txtCurrentPassword.Validating += new System.ComponentModel.CancelEventHandler(this.ValidatingCurrentPassword);
             // 
