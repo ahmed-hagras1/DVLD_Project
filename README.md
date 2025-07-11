@@ -1,3 +1,17 @@
+# 🛠️ Befor run:
+
+- Restore database
+- See how app work https://www.linkedin.com/posts/ahmed-hagras-3417972ab_im-proud-to-share-my-project-driving-activity-7329621735438249984-_-04?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAEqwTiEBIThRBNVSe8Y999XHYU_f-QYVkBQ
+
+---
+
+# 🔑 Login info:
+
+- Username: ahmed
+- Password: 12345
+
+---
+
 # 🚘 Driving License Management System (DVLD)
 
 This is a C#-based application designed to automate and manage the services of a government driving and vehicle license department.
